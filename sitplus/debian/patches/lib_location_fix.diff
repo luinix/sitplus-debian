@@ -1,0 +1,24 @@
+Index: sitplus-1.0/CMakeLists.txt
+===================================================================
+--- sitplus-1.0.orig/CMakeLists.txt	2011-07-05 15:32:19.995503942 +0200
++++ sitplus-1.0/CMakeLists.txt	2011-07-05 15:32:53.035515874 +0200
+@@ -38,7 +38,7 @@
+ #
+ 
+ set (BINDIR "bin")
+-set (LIBDIR "lib")
++set (LIBDIR "lib/sitplus")
+ if (WIN32)
+ 	set (LOCALEDIR "${BINDIR}/locale")
+ 	set (DATADIR "${BINDIR}")
+@@ -49,8 +49,8 @@
+ 	set (LOCALEDIR "share/locale")
+ 	set (DATADIR "share/${APP_NAME}")
+ 	set (DOCDIR "${DATADIR}/doc")
+-	set (PLUGINDIR "lib")
+-	set (LIBRUNTIMEDIR "lib")
++	set (PLUGINDIR "lib/sitplus")
++	set (LIBRUNTIMEDIR "lib/sitplus")
+ endif(WIN32)
+ 
+ 

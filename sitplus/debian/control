@@ -1,0 +1,36 @@
+Source: sitplus
+Section: misc
+Priority: extra
+Maintainer: Luis Rivas Vañó <luinix@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), cmake, libpoco-dev, libboost-dev, libboost-program-options-dev, libboost-thread-dev, wx2.8-headers, libwxbase2.8-dev, libbluetooth-dev, libconfig8-dev, libsdl1.2-dev, libcv-dev, libcvaux-dev, libhighgui-dev, libv4l-dev, libportmidi-dev, libboost-filesystem-dev, asciidoc, libsdl-gfx1.2-dev, libsdl-image1.2-dev, libwxgtk2.8-dev, quilt
+Standards-Version: 3.9.1
+Homepage: http://sitplus.crea-si.com
+Vcs-Git: git://sitplus.git.sourceforge.net/gitroot/sitplus/sitplus
+Vcs-Browser: http://sitplus.git.sourceforge.net/git/gitweb-index.cgi
+
+Package: sitplus
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, sitplus-data
+Description: Free software framework for ludic-therapeutic activities
+ SITPLUS is a free software (GNU GPL) framework whose main goal is to provide
+ ludic-therapeutic activities for people with disabilities. It offers new forms
+ of interaction based on computer vision, voice and other peripherals to
+ produce a result in the form of image and sound. Inspired by the cause and
+ effect applications, SITPLUS provides a tool for continuous and remote
+ interaction, attainable to the majority of people with cognitive, sensory and
+ physical disabilities.
+
+Package: sitplus-data
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: sitplus
+Description: Data files for Sitplus, a framework for ludic-therapeutic activities
+ SITPLUS is a free software (GNU GPL) framework whose main goal is to provide
+ ludic-therapeutic activities for people with disabilities. It offers new forms
+ of interaction based on computer vision, voice and other peripherals to
+ produce a result in the form of image and sound. Inspired by the cause and
+ effect applications, SITPLUS provides a tool for continuous and remote
+ interaction, attainable to the majority of people with cognitive, sensory and
+ physical disabilities.
+ .
+ This package provides the data for sitplus.

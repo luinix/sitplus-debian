@@ -1,0 +1,11 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -48,7 +48,7 @@
+ else(WIN32)
+ 	set (LOCALEDIR "share/locale")
+ 	set (DATADIR "share/${APP_NAME}")
+-	set (DOCDIR "${BINDIR}/${DATADIR}/doc")
++	set (DOCDIR "${DATADIR}/doc")
+ 	set (PLUGINDIR "lib")
+ 	set (LIBRUNTIMEDIR "lib")
+ endif(WIN32)

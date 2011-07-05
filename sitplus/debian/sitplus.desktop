@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Sitplus
+GenericName=Sitplus ludic-therapeutic software
+Comment=Framework for ludic-therapeutic activities
+Name[es]=Sitplus
+GenericName[es]=Software lúdico-terapéutico Sitplus
+Comment[es]=Entorno de trabajo para actividades lúdico-terapéuticas
+Exec=sitplus
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;Accessibility;
+Icon=/usr/share/pixmaps/sitplus-32x32.xpm

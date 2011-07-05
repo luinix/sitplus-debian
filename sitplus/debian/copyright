@@ -1,0 +1,65 @@
+Format: http://dep.debian.net/deps/dep5
+Upstream-Name: sitplus
+Source: http://sourceforge.net/projects/sitplus/files/
+
+Files: *
+Copyright: 2011 Cesar Mauri Loba <cesar@crea-si.com>
+License: GPL-3.0+
+
+Files: src/mod_collage
+Copyright: 2011 Jaume Singla Valls <jaume.singlavalls@gmail.com>
+License: GPL-3.0+
+
+Files: graphics/pictures
+Copyright: 2011 Jordi Martorell Palliso & Lidia Porcar Tabernero
+License: CC-BY-NC-SA
+
+Files: debian/*
+Copyright: 2011 Luis Rivas Vañó <luinix@gmail.com>
+License: GPL-3.0+
+
+License: GPL-3.0+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: CC-BY-NC-SA
+ This software is released under a Creative Commons license:
+ 
+ "Attribution-NonCommercial-ShareAlike 3.0"
+ 
+ You are free:
+ 
+ * To copy, distribute, display, and perform the work
+ 
+ * To make derivative works Under the following conditions:
+ 
+ * Attribution. You must give the original author (Gabriele Magurno) credit.
+ 
+ * Non-Commercial. You may not use this work for commercial purposes.
+ 
+ * Share Alike. If you alter, transform, or build upon this work, you may
+ * distribute the resulting work only under a licence identical to this one.
+ 
+ * For any reuse or distribution, you must make clear to others the licence terms
+ * of this work.
+ 
+ * Any of these conditions can be waived if you get permission from the copyright
+ * holder.
+ 
+ Your fair use and other rights are in no way affected by the above.
+ 
+ Full license (legal code) can be found at:
+ http://creativecommons.org/licenses/by-nc-sa/2.5/legalcode
