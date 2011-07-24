@@ -32,7 +32,7 @@ Description: Libraries for FLOSS framework for ludic-therapeutic activities
  interaction, attainable to the majority of people with cognitive, sensory and
  physical disabilities.
  .
- This packages contains libraries for sitplus.
+ This package contains libraries for sitplus.
 
 Package: sitplus-data
 Architecture: all
