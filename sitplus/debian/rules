@@ -10,7 +10,13 @@
 #export DH_VERBOSE=1
 
 override_dh_auto_configure:
-	dh_auto_configure -- -DCMAKE_BUILD_TYPE=Release
+	dh_auto_configure -- -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_RPATH=/usr/lib/sitplus
 
 %:
 	dh $@ 
+
+binary-indep:
+	dh --until dh_install $@
+	rm ${CURDIR}/debian/sitplus-data/usr/share/sitplus/graphics/pictures/License.txt
+	dh --remaining $@
+
