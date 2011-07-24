@@ -1,3 +1,9 @@
+sitplus (1.0.0-1ubuntu1~maverick1) natty; urgency=low
+
+  * Adding build for ubuntu maverick
+
+ -- Luis Rivas Vañó <luinix@gmail.com>  Mon, 25 Jul 2011 00:58:00 +0200
+
 sitplus (1.0.0-1ubuntu1~natty1) natty; urgency=low
 
   * Adding build for ubuntu natty
