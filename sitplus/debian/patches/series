@@ -1,2 +1,4 @@
 doc_location_fix.diff
 lib_location_fix.diff
+rpath_added.diff
+packager.diff

@@ -1,0 +1,11 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -467,7 +467,7 @@
+ # DEB packager
+ #
+ 
+-SET(CPACK_DEBIAN_PACKAGE_MAINTAINER "Cesar Mauri Loba")
++SET(CPACK_DEBIAN_PACKAGE_MAINTAINER "Luis Rivas Vañó")
+ 
+ INCLUDE(CPack)
+ 
