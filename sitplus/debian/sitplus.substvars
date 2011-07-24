@@ -1,2 +1,0 @@
-shlibs:Depends=libbluetooth3 (>= 4.40), libboost-filesystem1.40.0 (>= 1.40.0-1), libboost-program-options1.40.0 (>= 1.40.0-1), libboost-system1.40.0 (>= 1.40.0-1), libboost-thread1.40.0 (>= 1.40.0-1), libc6 (>= 2.3.6-6~), libc6 (>= 2.8), libconfig8, libcv4, libcvaux4, libgcc1 (>= 1:4.1.1), libhighgui4, libpocofoundation9, libpocoxml9, libportmidi0, libsdl-gfx1.2-4, libsdl-image1.2 (>= 1.2.5), libsdl1.2debian (>= 1.2.10-1), libstdc++6 (>= 4.4.0), libwxbase2.8-0 (>= 2.8.10.1), libwxgtk2.8-0 (>= 2.8.10.1), libx11-6 (>= 0)
-misc:Depends=
