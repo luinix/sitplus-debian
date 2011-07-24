@@ -1,6 +1,4 @@
 debian/sitplus-32x32.xpm usr/share/pixmaps
 debian/sitplus.desktop usr/share/applications
 debian/tmp/usr/bin usr
-debian/tmp/usr/lib usr
 debian/tmp/usr/share/locale usr/share
-debian/sitplus.conf etc/ld.so.conf.d

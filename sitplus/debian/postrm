@@ -2,12 +2,6 @@
 
 set -e
 
-case "$1" in
-	remove)
-		ldconfig
-	;;
-esac
-
 if [ -x /usr/bin/update-menus ] ; then update-menus ; fi
 
 exit 0

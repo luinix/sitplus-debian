@@ -10,7 +10,7 @@ Vcs-Browser: http://github.com/luinix/sitplus-debian
 
 Package: sitplus
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, sitplus-data
+Depends: ${shlibs:Depends}, ${misc:Depends}, libspcore, sitplus-data
 Description: Free software framework for ludic-therapeutic activities
  SITPLUS is a free software (GNU GPL) framework whose main goal is to provide
  ludic-therapeutic activities for people with disabilities. It offers new forms
@@ -19,6 +19,20 @@ Description: Free software framework for ludic-therapeutic activities
  effect applications, SITPLUS provides a tool for continuous and remote
  interaction, attainable to the majority of people with cognitive, sensory and
  physical disabilities.
+
+Package: libspcore
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Libraries for FLOSS framework for ludic-therapeutic activities
+ SITPLUS is a free software (GNU GPL) framework whose main goal is to provide
+ ludic-therapeutic activities for people with disabilities. It offers new forms
+ of interaction based on computer vision, voice and other peripherals to
+ produce a result in the form of image and sound. Inspired by the cause and
+ effect applications, SITPLUS provides a tool for continuous and remote
+ interaction, attainable to the majority of people with cognitive, sensory and
+ physical disabilities.
+ .
+ This packages contains libraries for sitplus.
 
 Package: sitplus-data
 Architecture: all
