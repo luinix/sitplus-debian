@@ -2,7 +2,7 @@
 
 set -e
 
-#ldconfig
+ldconfig
 
 if [ -x /usr/bin/update-menus ] ; then
 update-menus
