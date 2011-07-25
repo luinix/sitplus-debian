@@ -12,11 +12,10 @@
 override_dh_auto_configure:
 	dh_auto_configure -- -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_RPATH=/usr/lib/sitplus
 
+override_dh_auto_install:
+	dh_auto_install
+	rm -f ${CURDIR}/debian/tmp/usr/share/sitplus/graphics/pictures/License.txt
+
 %:
 	dh $@ 
-
-binary-indep:
-	dh --until dh_install $@
-	rm ${CURDIR}/debian/sitplus-data/usr/share/sitplus/graphics/pictures/License.txt
-	dh --remaining $@
 
