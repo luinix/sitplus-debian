@@ -1,3 +1,9 @@
+sitplus (1.0.0-1ubuntu1) natty; urgency=low
+
+  * Adding build for ubuntu natty
+
+ -- Luis Rivas Vañó <luinix@gmail.com>  Mon, 25 Jul 2011 02:36:18 +0200
+
 sitplus (1.0.0-1) unstable; urgency=low
 
   * Debianizing package
