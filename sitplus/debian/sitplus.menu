@@ -1,0 +1,2 @@
+?package(sitplus):needs="X11" section="Applications/Accessibility"\
+  title="Sitplus" command="/usr/bin/sitplus" icon="/usr/share/pixmaps/sitplus-32x32.xpm"
