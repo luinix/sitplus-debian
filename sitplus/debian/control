@@ -10,7 +10,7 @@ Vcs-Browser: http://github.com/luinix/sitplus-debian
 
 Package: sitplus
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, sitplus-data, pd-cyclone, pd-freeverb, pd-iemnet, pd, pd-libdir
+Depends: ${shlibs:Depends}, ${misc:Depends}, sitplus-data, pd-cyclone, pd-freeverb, pd-iemnet, puredata, pd-libdir, pd-list-abs
 Description: Free software framework for ludic-therapeutic activities
  SITPLUS is a free software (GNU GPL) framework whose main goal is to provide
  ludic-therapeutic activities for people with disabilities. It offers new forms
