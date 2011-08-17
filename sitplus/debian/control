@@ -7,8 +7,8 @@ Uploaders: Luis Rivas Vañó <luinix@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), cmake, libpoco-dev, libboost-dev, libboost-program-options-dev, libboost-thread-dev, libboost-system-dev, wx2.8-headers, libwxbase2.8-dev, libbluetooth-dev, libconfig8-dev, libsdl1.2-dev, libcv-dev, libcvaux-dev, libhighgui-dev, libv4l-dev, libportmidi-dev, libboost-filesystem-dev, asciidoc, libsdl-gfx1.2-dev, libsdl-image1.2-dev, libwxgtk2.8-dev
 Standards-Version: 3.9.2
 Homepage: http://sitplus.crea-si.com
-Vcs-Git: git://github.com/luinix/sitplus-debian.git
-Vcs-Browser: http://github.com/luinix/sitplus-debian
+Vcs-Git: git://git.debian.org/debian-med/sitplus.git
+Vcs-Browser: http://git.debian.org/?p=debian-med/sitplus.git
 
 Package: sitplus
 Architecture: any

@@ -1,3 +1,16 @@
+sitplus (1.0.0-2) unstable; urgency=low
+
+  * Minor changes in debian directory organization.
+  * Added a manpage for sitplus package.
+  * Changed the maintainer and added myself as an uploader.
+  * Updated Vcs fields in control file.
+  * Fixing copyright file: BY-NC-SA version from 2.5 to 3.0.
+  * Added descriptions to quilt patches.
+  * Added a new quilt patch for fixing spelling error in source code.
+  * Removed templates from debian/rules
+
+ -- Luis Rivas Vañó <luinix@gmail.com>  Wed, 17 Aug 2011 15:46:11 +0200
+
 sitplus (1.0.0-1) unstable; urgency=low
 
   * Initial release (Closes: #635597)

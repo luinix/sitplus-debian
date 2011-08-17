@@ -1,3 +1,4 @@
 doc_location_fix.diff # Changes the doc directory location in CMakeLists.txt
 lib_location_fix.diff # Changes the library and plugin directory location to /usr/lib/sitplus in CMakeLists.txt
 packager.diff # Changes the Debian maintainer in CMakeLists.txt
+spelling.diff # Fixes spelling error in source code
