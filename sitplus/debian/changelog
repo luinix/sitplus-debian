@@ -2,6 +2,7 @@ sitplus (1.0.1-1) unstable; urgency=low
 
   * New upstream version.
   * Changed license for graphics/pictures.
+  * doc_location_fix patch no longer needed: fixed in upstream.
 
  -- Luis Rivas Vañó <luinix@gmail.com>  Mon, 22 Aug 2011 12:34:50 +0200
 
