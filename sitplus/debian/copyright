@@ -12,7 +12,7 @@ License: GPL-3.0+
 
 Files: graphics/pictures
 Copyright: 2011 Jordi Martorell Palliso & Lidia Porcar Tabernero
-License: CC-BY-NC-SA
+License: CC-BY-SA
 
 Files: debian/*
 Copyright: 2011 Luis Rivas Vañó <luinix@gmail.com>
@@ -35,10 +35,10 @@ License: GPL-3.0+
  On Debian systems, the complete text of the GNU General
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
 
-License: CC-BY-NC-SA
+License: CC-BY-SA
  This software is released under a Creative Commons license:
  
- "Attribution-NonCommercial-ShareAlike 3.0"
+ "Attribution-ShareAlike 3.0"
  
  You are free:
  
@@ -47,8 +47,6 @@ License: CC-BY-NC-SA
  * To make derivative works Under the following conditions:
  
  * Attribution. You must give the original author (Gabriele Magurno) credit.
- 
- * Non-Commercial. You may not use this work for commercial purposes.
  
  * Share Alike. If you alter, transform, or build upon this work, you may
  * distribute the resulting work only under a licence identical to this one.
@@ -62,4 +60,4 @@ License: CC-BY-NC-SA
  Your fair use and other rights are in no way affected by the above.
  
  Full license (legal code) can be found at:
- http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode
+ http://creativecommons.org/licenses/by-sa/3.0/legalcode
